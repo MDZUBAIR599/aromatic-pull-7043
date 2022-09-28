@@ -1,0 +1,29 @@
+*{
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+.headerNavbar{
+    display: flex;
+    /* position: fixed; */
+    width: 70%;
+    border-bottom: 1px solid #999999;
+    margin: 0 auto;
+}
+
+.headerNavbar > button {
+    flex : 1;
+    padding: 10px;
+    background-color: #FFFFFF;
+    border: none;
+    font-weight: bold;
+    color: rgb(119, 119, 119);
+    cursor: pointer;
+}
+
+.button__active{
+    color: #000000 !important;
+    border-bottom: 1.5px solid #D54130 !important;
+}
