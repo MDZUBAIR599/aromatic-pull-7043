@@ -1,0 +1,51 @@
+.main{
+    padding : 20px
+}
+.item_container{
+    /* border : 1px solid red; */
+    padding: 15px 60px;
+    cursor: pointer;
+}
+.item_container > div{
+    height: 100%;
+    width: 100%;
+    border:  1px solid #EBE6E5;
+}
+.item_container > div > img{
+    height: 100%;
+    width: 100%;
+    background-color: #F9F9F9;
+    text-align: center;
+}
+.info__container{
+    padding: 10px;
+
+}
+.btnAdd{
+    display: inline-block;
+    padding: 6px 15px;
+    border: none;
+    border-radius: 15px;
+    border : 1px solid #51BC90;
+    background-color: #FFFFFF;
+    width: 85px;
+    height: 30px;
+}
+.btnAdd svg{
+    height: 16px;
+    width: 16px;
+       
+}
+.info__container span {
+    color: #51BC90;
+    /* float: right; */
+}
+
+.info__container > p:first-child{
+    padding: 0 0 30px 0;
+}
+
+.infoContainer__price__btn{
+    display: flex;
+    justify-content: space-between;
+}
