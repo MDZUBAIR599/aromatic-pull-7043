@@ -20,7 +20,7 @@
    
     /* height: 300px; */
   width: 80%;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   margin-top:1rem; 
   /* margin-top: 10px; */
   /* margin-left: 17.5%; */
@@ -65,7 +65,7 @@
     }
   
   .articalImageDiv{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width:48%;
     height: 90%;
     float: left;
@@ -85,7 +85,7 @@
     width:48%;
   }
   .articalHeaderDiv{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width:45%;
     height: 100%;
     font-size:1rem;
@@ -147,7 +147,7 @@
     margin-right:1rem;
   }
   .fVideosScreenImageDiv{
-    border: 1px solid red;
+    /* border: 1px solid red; */
   width:16rem;
   height:9rem;
   display:flex;

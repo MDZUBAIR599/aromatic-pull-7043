@@ -2,7 +2,7 @@ import left_image from "../../Assets/slider/left_image.png";
 import middle_image from "../../Assets/slider/middle_image.png";
 import right_image from "../../Assets/slider/right_image.png";
 import match_image from "../../Assets/slider/match_image.png";
-import left from "../../Assets/slider/left.png";
+import left from '../../Assets/slider/left.png'
 import table_image from "../../Assets/slider/table_image.png";
 
 

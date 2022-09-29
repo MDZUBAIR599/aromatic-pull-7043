@@ -45,7 +45,7 @@
 
 #left {
   width: 320px;
-  margin: 52px 5px 25px 5px;
+  margin: 60px 5px 25px 5px;
   border-radius: 5px;
   height: 140px;
   position: relative;
@@ -53,7 +53,7 @@
 }
 #right {
   width: 320px;
-  margin: 52px 5px 25px 5px;
+  margin: 60px 5px 25px 5px;
   border-radius: 5px;
   height: 140px;
   position: relative;

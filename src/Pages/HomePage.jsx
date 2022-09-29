@@ -1,6 +1,7 @@
 import React from 'react'
 import Slider from '../Components/Carousel/Slider'
 import FeathuredVideo from './FeaturedVideos/FeaturedVideos'
+import HomeNews from './HomeNews'
 function HomePage() {
   return (
     <div>
@@ -8,6 +9,7 @@ function HomePage() {
          */}
          <Slider/>
          <FeathuredVideo/>
+         <HomeNews/>
     </div>
   )
 }
