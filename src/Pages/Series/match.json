@@ -1,0 +1,125 @@
+
+    {
+        "seriesPriority": [
+          {
+            "tourName": "South Africa tour of India, 2022",
+            "seriesSearchNameForES": "South Africa tour of India, 2022, September, Sep",
+            "tourID": "2620",
+            "league": "ICC",
+            "seriesStartDate": "1664323200000",
+            "seriesEndDate": "1665446400000",
+            "T20count": 3,
+            "matchLevel": "international",
+            "Odicount": 3,
+            "Testcount": null
+          },
+          {
+            "tourName": "Australia Women and Pakistan Women tour of Ireland, 2022",
+            "seriesSearchNameForES": "Australia Women and Pakistan Women tour of Ireland, 2022, July, Jul",
+            "tourID": "2335",
+            "league": "Women's International",
+            "seriesStartDate": "1658003400000",
+            "seriesEndDate": "1658694600000",
+            "T20count": 6,
+            "matchLevel": "international-womens",
+            "Odicount": null,
+            "Testcount": null
+          },
+          {
+            "tourName": "Papua New Guinea tour of Singapore, 2022",
+            "seriesSearchNameForES": "Papua New Guinea tour of Singapore, 2022, July, Jul",
+            "tourID": "2572",
+            "league": "ICC",
+            "seriesStartDate": "1657065600000",
+            "seriesEndDate": "1657065600000",
+            "T20count": 1,
+            "matchLevel": null,
+            "Odicount": null,
+            "Testcount": null
+          },
+          {
+            "tourName": "England tour of Pakistan, 2022",
+            "seriesSearchNameForES": "England tour of Pakistan, 2022, September, Sep",
+            "tourID": "2636",
+            "league": "ICC",
+            "seriesStartDate": "1663632000000",
+            "seriesEndDate": "1671580800000",
+            "T20count": 7,
+            "matchLevel": "international",
+            "Odicount": null,
+            "Testcount": 3
+          },
+          {
+            "tourName": "New Zealand Women tour of West Indies, 2022",
+            "seriesSearchNameForES": "New Zealand Women tour of West Indies, 2022, September, Sep",
+            "tourID": "2659",
+            "league": "Women's International",
+            "seriesStartDate": "1663354800000",
+            "seriesEndDate": "1665097200000",
+            "T20count": 5,
+            "matchLevel": "international-womens",
+            "Odicount": 4,
+            "Testcount": null
+          },
+          {
+            "tourName": "Ireland Women tour of Scotland, 2022",
+            "seriesSearchNameForES": "Ireland Women tour of Scotland, 2022, September, Sep",
+            "tourID": "2670",
+            "league": "Women's International",
+            "seriesStartDate": "1662399000000",
+            "seriesEndDate": "1662658200000",
+            "T20count": 3,
+            "matchLevel": "international-womens",
+            "Odicount": null,
+            "Testcount": null
+          },
+          {
+            "tourName": "County Championship, 2022",
+            "seriesSearchNameForES": "County Championship, 2022, April, Apr",
+            "tourID": "2255",
+            "league": "English Domestic",
+            "seriesStartDate": "1649345400000",
+            "seriesEndDate": "1664204400000",
+            "T20count": 39,
+            "matchLevel": "domestic",
+            "Odicount": null,
+            "Testcount": 126
+          },
+          {
+            "tourName": "Caribbean Premier League, 2022",
+            "seriesSearchNameForES": "Caribbean Premier League, 2022, August, Aug",
+            "tourID": "2338",
+            "league": "CPL",
+            "seriesStartDate": "1662006600000",
+            "seriesEndDate": "1664598600000",
+            "T20count": 34,
+            "matchLevel": "domestic",
+            "Odicount": null,
+            "Testcount": null
+          },
+          {
+            "tourName": "Tamil Nadu Premier League, 2022",
+            "seriesSearchNameForES": "Tamil Nadu Premier League, 2022, June, Jun",
+            "tourID": "2376",
+            "league": "Other Domestic",
+            "seriesStartDate": "1656011700000",
+            "seriesEndDate": "1659294900000",
+            "T20count": 32,
+            "matchLevel": "non-domestic",
+            "Odicount": null,
+            "Testcount": null
+          },
+          {
+            "tourName": "Marsh One Day Cup, 2022/23",
+            "seriesSearchNameForES": "Marsh One Day Cup, 2022/23, September, Sep",
+            "tourID": "2589",
+            "league": "Australian Domestic",
+            "seriesStartDate": "1663911300000",
+            "seriesEndDate": "1678249800000",
+            "T20count": 22,
+            "matchLevel": "domestic",
+            "Odicount": 22,
+            "Testcount": null
+          }
+        ]
+      }
