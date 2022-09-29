@@ -28,6 +28,7 @@
   display: inline-block;
 }
 .singleImageDiv > img {
+  
   border-radius: 0.25rem;
   width: 100%;
   height: 100%;
