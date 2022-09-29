@@ -3,7 +3,7 @@ let hnews = [
 		id: 1,
 		img: "https://images-cricketcom.imgix.net/news-1664386515438?auto=compress&dpr=2&w=1&h=200",
 		heading: "Games like these help us learn a lot: Rohit Sharma",
-		description: "The India skipper claimed that challenging encounters like these go a long way in helping a side learn about itself",
+		description: "The India skipper claimed that challenging encounters like these go a long way in helping  ",
 		website: "cricket.com staff",
 		date: "20 Sep 2022",
 		type: "Latest",
@@ -25,7 +25,7 @@ let hnews = [
 		heading:
 			"Adaptability is the big motive of our team: Arshdeep Singh",
 		description:
-		"The left-arm seamer got three wickets in one over to break the back of South Africa's batting order",
+		"The left-arm seamer got three wickets in one over to break the back",
 		website: "cricket.com staff",
 		date: "20 Sep 2022",
 		type: "News",
