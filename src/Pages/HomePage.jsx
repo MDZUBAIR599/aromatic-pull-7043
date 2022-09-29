@@ -1,15 +1,13 @@
 import React from 'react'
-import SimpleSlider from '../Components/Carousel/CarouselSlider'
-import CarouselSlider from '../Components/Carousel/CarouselSlider'
 import Slider from '../Components/Carousel/Slider'
-import "slick-carousel/slick/slick.css"; 
-import "slick-carousel/slick/slick-theme.css";
+import FeathuredVideo from './FeaturedVideos/FeaturedVideos'
 function HomePage() {
   return (
     <div>
         {/* <SimpleSlider />
          */}
          <Slider/>
+         <FeathuredVideo/>
     </div>
   )
 }
