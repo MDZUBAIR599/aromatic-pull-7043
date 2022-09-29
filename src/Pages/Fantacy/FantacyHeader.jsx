@@ -4,8 +4,8 @@ import React from 'react'
 const FantacyHeader = () => {
   return (
   <Stack >
-<SimpleGrid>
-<Box m="auto" border="1px solid red" w="970px" h="30px" bgColor="#FFB700">
+<SimpleGrid colums={[1,1,1,1]}>
+<Box m="auto" w="925px" h="40px" bgColor="#FFB700">
 
 
     <Box>
