@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.matchType{
+    /* position: fixed; */
+    /* top:0; */
+    display: flex;
+    padding: 25px 40px 15px 40px;
+    width: 70%;
+    /* border: 1px solid red; */
+    margin: 0 auto;
+    background-color: #FFFFFF;
+    justify-content: space-between;
+    border-bottom: 1px solid #999999;
+
+}
+
+
+.match_type_nav{
+    display: flex;
+    /* padding: 20px 40px; */
+    /* border: 1px solid red; */
+    justify-content: space-evenly;
+    width: 65%;
+    /* border-bottom: 1px solid #999999; */
+    background-color: #FFFFFF;
+}
+
+.match_type_buttons{
+    padding: 4px 30px;
+    font-size: 10px;
+    font-weight: 600;
+    color: #FFFFFF;
+    /* border : 1px solid red; */
+    border-radius: 20px;
+    background-color: #a70e13;
+}
+
+.filter_btn
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 20px;
+    background-color: #a70e13;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.filter_btn svg{
+    margin-top: 3px;
+}
+.filter_btn svg .a,.c{
+    fill: none;
+}
+.filter_btn svg .a{
+    stroke: #FFFFFF;
+    stroke-width: 1.2px;
+}
+.filter_btn svg .b{
+    stroke: none;
+}
+.filter_btn span{
+    padding: 0 10px;
+    /* display: inline; */
+}
+
+.modal{
+    height: 400px;
+    padding: 10px;
+    width: 500px;
+    margin: 10% auto;
+    background-color: #FFFFFF;
+    
+}
+.modal > div:first-child{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #EEEEEE;
+}
+
+.modal > div:nth-child(2){
+    /* padding: 1px 50px; */
+    border: 1px solid red;
+}

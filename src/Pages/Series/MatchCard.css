@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.matchCard{
+    display: flex;
+    width: 100%;
+    border : 1px solid #FF8573;
+    margin: 10px auto;
+    /* text-align: center; */
+    background-color: #FFFFFF;
+}
+
+.matchCard > div{
+  /* border: 1px solid red; */
+}
+
+.matchCard > div:first-child{
+    padding: 10px 10px 20px 10px;
+    flex: 2;
+    /* border: 1px solid red; */
+    text-align: left;
+  }
+  
+  .matchCard > div:first-child > p:nth-child(2)
+  {
+    margin: 16px 0 0 0;
+  }
+
+  .matchCard > div:first-child > p:nth-child(2) > span:first-child
+  {
+    padding: 5px 10px;
+    background-color: #999999;
+    border-radius: 50%;
+    color: #FFFFFF;
+    font-size: 14px;
+    margin-right: 5px;
+  }
+
+  .matchCard > div:first-child > p:nth-child(2) > span:nth-child(2)
+  {
+    color: #999999;
+    font-size: 12px;
+    font-weight: 500;
+  }
+
+  .matchCard > div:nth-child(2){
+    padding: 25px 30px;
+    /* flex: 1; */
+    text-align: center;
+    /* border: 1px solid red; */
+    background-color: #FF8573;
+    font-weight: bold;
+    color: #FFFFFF;
+  }
