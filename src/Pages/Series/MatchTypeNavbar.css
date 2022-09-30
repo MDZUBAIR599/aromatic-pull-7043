@@ -85,5 +85,25 @@
 
 .modal > div:nth-child(2){
     /* padding: 1px 50px; */
-    border: 1px solid red;
+    /* border: 1px solid red; */
+}
+.country_versus{
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* border: 1px solid red; */
+    /* width: 80%; */
+}
+
+.country_versus > button{
+    display: inline-block;
+    padding: 6px 50px;
+    border: none;
+    margin : 5px auto;
+    font-size: 12px;
+    border-radius: 20px;
+    background-color: #EEEEEE;
+    text-align: center;
 }
