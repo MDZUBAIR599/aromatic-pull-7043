@@ -4,6 +4,7 @@ import Navbar from '../Components/Navbar/Navbar'
 import Criclytics from '../Pages/Criclytics/Criclytics'
 import Fantacy from '../Pages/Fantacy/Fantacy'
 import HomePage from '../Pages/HomePage'
+import LoginPage from '../Pages/LoginPage'
 import PlayerPage from '../Pages/PlayerPage'
 import Singleplayer from '../Pages/playerPage/singleplayer/Singleplayer'
 import TeamPage from '../Pages/TeamPage'
@@ -25,7 +26,7 @@ function AllRoutes() {
           <Route path="/teams" element={  <TeamPage/>} /> 
           <Route path="/players/:id" element={  <Singleplayer/>} /> 
           <Route path="/videos" element={  <Videos/>} /> 
-          
+          <Route path='/login' element={<LoginPage/>}></Route>
         </Routes>
     </div>
     </>
