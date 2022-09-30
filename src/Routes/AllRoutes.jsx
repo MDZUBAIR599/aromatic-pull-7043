@@ -3,6 +3,7 @@ import { Route, Routes } from 'react-router-dom'
 import Navbar from '../Components/Navbar/Navbar'
 import Criclytics from '../Pages/Criclytics/Criclytics'
 import Fantacy from '../Pages/Fantacy/Fantacy'
+import SecondPage from '../Pages/Fantacy/SecondPage'
 import HomePage from '../Pages/HomePage'
 import PlayerPage from '../Pages/PlayerPage'
 import Singleplayer from '../Pages/playerPage/singleplayer/Singleplayer'
@@ -21,10 +22,6 @@ function AllRoutes() {
           <Route path="/" element={<HomePage/>} />
           <Route path="/FantasyResearch" element={<Fantacy />} />
           <Route path="/Criclytics" element={<Criclytics />} /> 
-          <Route path="/players" element={  <PlayerPage/>} /> 
-          <Route path="/teams" element={  <TeamPage/>} /> 
-          <Route path="/players/:id" element={  <Singleplayer/>} /> 
-          <Route path="/videos" element={  <Videos/>} /> 
         </Routes>
     </div>
     </>

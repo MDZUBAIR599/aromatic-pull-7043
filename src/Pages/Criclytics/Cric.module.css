@@ -1,0 +1,25 @@
+
+
+.slide{
+    margin: 0px;
+    padding: 0px;
+    height: 200px;
+    width:100%;
+    background-image: url("https://www.cricket.com/pngs/banner-1.jpg");
+    background-size: 100% 100%;
+    animation: changeImage 15s linear infinite ;
+}
+@keyframes changeImage {
+    0%{
+        background-image: url("https://www.cricket.com/pngs/Banner2.png");
+    }
+    33.33%{
+        background-image: url("https://www.cricket.com/pngs/Banner3.png");
+    }
+    66.66%{
+        background-image: url("https://www.cricket.com/pngs/Banner1.png");
+    }
+    100%{
+        background-image: url("https://www.cricket.com/pngs/banner-1.jpg");
+    }
+}
