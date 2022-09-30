@@ -7,6 +7,7 @@ import HomePage from '../Pages/HomePage'
 import PlayerPage from '../Pages/PlayerPage'
 import Singleplayer from '../Pages/playerPage/singleplayer/Singleplayer'
 import TeamPage from '../Pages/TeamPage'
+import Videos from '../Pages/videos-page/Videos'
 
 function AllRoutes() {
   return (
@@ -23,6 +24,7 @@ function AllRoutes() {
           <Route path="/players" element={  <PlayerPage/>} /> 
           <Route path="/teams" element={  <TeamPage/>} /> 
           <Route path="/players/:id" element={  <Singleplayer/>} /> 
+          <Route path="/videos" element={  <Videos/>} /> 
         </Routes>
     </div>
     </>
