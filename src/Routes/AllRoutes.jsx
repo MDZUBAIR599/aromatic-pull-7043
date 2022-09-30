@@ -8,6 +8,7 @@ import HomePage from '../Pages/HomePage'
 import PlayerPage from '../Pages/PlayerPage'
 import Singleplayer from '../Pages/playerPage/singleplayer/Singleplayer'
 import TeamPage from '../Pages/TeamPage'
+import Videos from '../Pages/videos-page/Videos'
 
 function AllRoutes() {
   return (
@@ -21,7 +22,6 @@ function AllRoutes() {
           <Route path="/" element={<HomePage/>} />
           <Route path="/FantasyResearch" element={<Fantacy />} />
           <Route path="/Criclytics" element={<Criclytics />} /> 
-
         </Routes>
     </div>
     </>
