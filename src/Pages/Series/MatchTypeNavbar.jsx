@@ -2,11 +2,12 @@ import React , { useState } from 'react'
 import './MatchTypeNavbar.css'
 import Modal from 'react-modal'
 import "../../../node_modules/flag-icons/css/flag-icons.min.css";
+import matchData from './match.json'
 
 
 export default function MatchTypeNavbar(){
     const [isOpen, setIsOpen] = useState(false)
-    
+    console.log({matchData});
     return (
         <div className  = "matchType">
         <div className = "match_type_nav">
