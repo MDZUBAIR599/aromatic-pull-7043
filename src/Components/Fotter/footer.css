@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  background-color: rgba(23, 33, 50, 255);
+  height: 100px;
+}
+
+.div_1 {
+  margin-left: 10vw;
+  font-family: Montserrat;
+  color: white;
+}
+
+.div_1 p {
+  font-size: 12px;
+}
+
+.div_2 {
+  margin-left: 10vw;
+  font-family: Montserrat;
+}
+
+.div_2 a {
+  color: white;
+  text-decoration: none;
+  margin-right: 10px;
+  font-size: 14px;
+}
+
+.div_2 a:hover {
+  color: orangered;
+
+}
+
+.div_3 {
+  margin-left: 10vw;
+  font-family: Montserrat;
+  color: rgb(218, 216, 216);
+}
+
+
+.z-4 {
+  z-index: 4;
+}
+
+.bg-white {
+  background-color: #fff;
+}
+.w-100 {
+  width: 100%;
+}
+.justify-around {
+  justify-content: space-around;
+}
+.items-end {
+  -moz-box-align: end;
+  align-items: flex-end;
+}
+.flex {
+  display: -moz-box;
+  display: flex;
+}
+.db {
+  display: block;
+}
+.shadow-1 {
+  -webkit-box-shadow: 0 0 4px 2px rgb(0 0 0 / 20%);
+  box-shadow: 0 0 4px 2px rgb(0 0 0 / 20%);
+}
+.border-box, a, article, aside, blockquote, body, code, dd, div, dl, dt, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, html, input[type=email], input[type=number], input[type=password], input[type=tel], input[type=text], input[type=url], legend, li, main, nav, ol, p, pre, section, table, td, textarea, th, tr, ul {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+* {
+  -webkit-touch-callout: none;
+  -webkit-tap-highlight-color: transparent;
+}
+* {
+  scroll-behavior: smooth;
+  font-family: Montserrat;
+}
+user agent stylesheet
+div {
+  display: block;
+}
+:root {
+  --swiper-navigation-size: 44px;
+}
+:root {
+  --swiper-theme-color: #007aff;
+}
+html {
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+}
