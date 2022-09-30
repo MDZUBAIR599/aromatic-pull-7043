@@ -3,6 +3,7 @@ import { Box, Container, Flex, Image, Spacer, Text, VStack } from "@chakra-ui/re
 import Iframe from 'react-iframe'
 import { useState } from 'react';
 import "./Videos.css"
+import Footer from '../../Components/Fotter/Footer';
 const Videos = () => {
     const [newid, SetNewid] = useState("ISIwuGLX1e0");
    
@@ -75,8 +76,8 @@ const Videos = () => {
             </div>
      
            <div className='bbox'>
-          
-          <Iframe url={`https://www.youtube.com/embed/c9rIFWSdcCA/${newid}`} width='100%' height='450px' display='initial' position='relative'></Iframe>
+           
+          <Iframe url={`https://www.youtube.com/embed/QaxeZrqYM48/${newid}`} width='100%' height='450px' display='initial' position='relative'></Iframe>
    
     
            </div>
@@ -103,6 +104,7 @@ const Videos = () => {
                 }
             </div>
             </div>
+            <Footer/>
         </div>
        
     )
