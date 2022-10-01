@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, Container, Flex, Image, Spacer, Text, VStack } from "@chakra-ui/react";
+
 import Iframe from 'react-iframe'
 import { useState } from 'react';
 import "./Videos.css"
@@ -66,7 +66,7 @@ const Videos = () => {
         date:"26 sept 2022",
         imageurl: "https://www.youtube.com/embed/OIQ_PlPLDCc",
         heading: "We haven't played our best cricket in this white-ball leg ENG vs IND  Jos Buttler  Presser",
-        date:"26 sept 2022",
+       
         des: "Watch Jos Buttler's full press conference post the third ODI against India at Old Trafford, Manchester."
     }
     ]
