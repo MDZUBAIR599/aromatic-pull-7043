@@ -1,3 +1,4 @@
+
 import React from 'react'
 import { Route, Routes } from 'react-router-dom'
 import Navbar from '../Components/Navbar/Navbar'
@@ -10,14 +11,14 @@ import Singleplayer from '../Pages/playerPage/singleplayer/Singleplayer'
 import TeamPage from '../Pages/TeamPage'
 import Videos from '../Pages/videos-page/Videos'
 
+
 function AllRoutes() {
   return (
     <>
    
+    
     <div>
-       <Navbar/>
-    </div>
-    <div>
+
         <Routes>
           <Route path="/" element={<HomePage/>} />
           <Route path="/FantasyResearch" element={<Fantacy />} />
@@ -31,6 +32,7 @@ function AllRoutes() {
     </div>
     </>
   )
+
 }
 
-export default AllRoutes
+export default AllRoutes;
