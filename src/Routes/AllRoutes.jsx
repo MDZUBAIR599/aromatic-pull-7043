@@ -15,9 +15,6 @@ import Videos from '../Pages/videos-page/Videos'
 function AllRoutes() {
   return (
     <>
-   
-    
-    <div>
 
         <Routes>
           <Route path="/" element={<HomePage/>} />
@@ -29,7 +26,7 @@ function AllRoutes() {
           <Route path="/videos" element={  <Videos/>} /> 
           <Route path='/login' element={<LoginPage/>}></Route>
         </Routes>
-    </div>
+
     </>
   )
 
