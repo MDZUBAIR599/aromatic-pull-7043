@@ -13,11 +13,7 @@ import Videos from '../Pages/videos-page/Videos'
 function AllRoutes() {
   return (
     <>
-   
-    <div>
-       <Navbar/>
-    </div>
-    <div>
+       <div>
         <Routes>
           <Route path="/" element={<HomePage/>} />
           <Route path="/FantasyResearch" element={<Fantacy />} />

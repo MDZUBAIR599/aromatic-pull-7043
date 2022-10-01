@@ -39,8 +39,6 @@ function SecondPage() {
 
 
 </SimpleGrid>
-  
-
     </Stack>
   )
 }
