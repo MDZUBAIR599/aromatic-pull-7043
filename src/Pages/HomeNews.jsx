@@ -43,11 +43,13 @@ const HomeNews = () => {
       <hr />
 
       {newsList.map((item) => (
-        <Link style={{ textDecoration: "none", color: "#141b2f" }} to={`/news`}>
-          <div key={item.id}>
-            <NewsCard data={item} />
+        
+          <div  key={item.id}>
+            <Link style={{ textDecoration: "none", color: "#141b2f" }} to={`/news`}>
+            <NewsCard   data={item} />
+            </Link>
           </div>
-        </Link>
+        
       ))}
     </div>
    </div>

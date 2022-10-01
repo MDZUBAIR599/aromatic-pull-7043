@@ -1,0 +1,74 @@
+
+/* .box{
+    background-color: bisque;
+   height: 100px;
+} */
+
+.box{
+    background-color: #e8e9ef;
+}
+.bbox{
+    /* margin-top: 600px; */
+  
+    width: 85%;
+    margin: auto;
+    margin-top: -120px;
+}
+.colorbox{
+   /* border: 2px solid yellow; */
+   background: #aa261a;
+   width: 100%;
+   height: 300px;
+   /* margin-top: 100px */
+}
+.ubox{
+    border: 1px solid rgb(98, 255, 0);
+    width: 100%;
+}
+.vbox{
+   
+}
+.mapbox{
+  /* border: 1px solid blue; */
+  background-color: white;
+  width: 85%;
+  /* margin-top: 5px; */
+  
+  margin: auto;
+}
+.mappedbox{
+    /* border: 1px solid blue; */
+    width: 100%;
+   
+    margin: auto;
+    display: flex;
+    margin-bottom: 10px;
+
+}
+.insidemap{
+    /* border: 1px solid red; */
+    /* width: 100%; */
+    height: 100%;
+  
+}
+.mapbox h4{
+    margin-top: 15px;
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: .75rem;
+    margin-left: 10px;
+}
+.h6box{
+    margin-top: 15px;
+    /* border: 1px solid red; */
+    font-family: Montserrat;
+    display: flex;
+    margin-left: 15px;
+    font-weight: 500;
+    font-size: .65rem;
+    
+    /* margin-left: -300px; */
+}
+.mappedbox iframe{
+    width: 200px;
+}

@@ -1,0 +1,131 @@
+.team-main {
+  background-color: #eee;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  line-height: 1.15;
+  scroll-behavior: smooth;
+  font-family: Montserrat;
+  box-sizing: border-box;
+  min-height: 100vh;
+}
+.team-main-2 {
+  width: 70%;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin: auto;
+  min-height: 100vh;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.Heading-team {
+  
+  display: flex;
+  border-bottom: 1px solid #777777;
+  width: 93%;
+  margin: auto;
+}
+.Heading-team-1 {
+  width: 50%;
+}
+.Heading-team-1 span,
+.Heading-team-2 span {
+  line-height: 1.15;
+  font-weight: 600;
+  color: #777777;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  scroll-behavior: smooth;
+  font-family: Montserrat;
+  cursor: pointer;
+}
+.Heading-team-2 {
+  width: 50%;
+}
+@media(max-width:991px){
+.team-main-2{
+  width: 100%;
+}
+}
+@media(max-width:860px){
+  #Rahul{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+  }
+  }
+@media(max-width:668px){
+  #Rahul{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+  }
+  }
+  @media(max-width:480px){
+    #Rahul{
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+    }
+    }
+
+    /* Player Css start */
+    .Heading-player {
+  
+      display: grid;
+      grid-template-columns: repeat(5,1fr);
+      width: 93%;
+      margin: auto;
+      padding-left: 10px;
+      margin-bottom: 40px;
+    }
+    .Heading-player-1,
+    .Heading-player-2,
+    .Heading-player-3,
+    .Heading-player-4,
+    .Heading-player-5{
+    cursor: pointer;
+    border-radius: 20px;
+      background-color: #eee;
+      font-size: 0.75rem;
+      justify-content: center;
+      color: #000;
+      font-weight: 600;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    text-align: center;
+    line-height: 1.15;
+    font-family: Montserrat;
+    box-sizing: border-box;
+    position: relative;
+    transition-property: transform,-webkit-transform;
+    width: 93%;
+    }
+
+    .main-player-grid{
+      display: grid;
+      grid-template-columns: repeat(4,1fr);
+      
+      gap: 10px;
+      margin-top: 30px;
+      width: 90%;
+      margin: auto;
+
+    }
+    .main-colum-gird{
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+    .column-name{
+      background-color: rgba(0, 0, 0, 0.9);
+      color: white;
+      font-weight: 600;
+      font-size: 0.65rem;
+      font-family: Montserrat;
+      text-align: center;
+    }
+    .player-logo{
+     width: 10%;
+    }
+   
