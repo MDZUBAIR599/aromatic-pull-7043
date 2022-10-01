@@ -5,10 +5,12 @@ import { Icon } from '@chakra-ui/react'
 import { SiGooglemaps } from "react-icons/si";
 import FantacyHeader from './FantacyHeader';
 import { Link } from 'react-router-dom';
+import Footer from '../../Components/Fotter/Footer';
 //w="970px" h="980px"
 //bgColor="#777777"
 const Fantacy = () => {
   return (
+    <>
     <Stack m="auto" w="970px" h="1100px" bgColor="black" mt="100px" >
 
       <FantacyHeader />
@@ -16,14 +18,14 @@ const Fantacy = () => {
 
 
 
-        <Box w={["100%", "70", "95%"]} h="auto" ml={5}>
+        <Box color={"white"}w={["100%", "70", "95%"]} h="auto" ml={5}>
           <Text fontSize={["12px", "14px", "14px"]} p="0px 0px 0px 4px" textColor="grey" align="left" fontWeight="600">UPCOMING MATCHES</Text>
 
-          <VStack h="200px" align="left" >
+          <VStack  color={"white"} h="200px" align="left" >
 
-            <Box border="1px solid #FFB600" w="100%" h="150px" borderRadius="8px" pt={2} bgColor="#FFFFFF33">
+            <Box   border="1px solid #FFB600" w="100%" h="150px" borderRadius="8px" pt={2} bgColor="#FFFFFF33">
 
-              <Text fontSize={["8px", "10px", "12px"]} isTruncated>1st Semi-Final, Road Safety T20 World Series ,2022</Text>
+              <Text  fontSize={["8px", "10px", "12px"]} isTruncated>1st Semi-Final, Road Safety T20 World Series ,2022</Text>
 
               <HStack justify="center" p={2}>
                 <Box w="30px" h="30px"><Image w="35px" h="30px" borderRadius="50%" src="https://images.cricket.com/teams/4_flag_safari.png" alt="pic" /></Box>
@@ -203,7 +205,7 @@ const Fantacy = () => {
                 <Text fontSize="20px" color="#999999" pl="12px" pr="2px">AU-L</Text>
                 <Box w="30px" h="30px" borderRadius="0%"><Image w="35px" h="30px" borderRadius="50%" src="https://www.cricket.com/svgs/images/flag_empty.png" alt="pic" /></Box>
               </HStack>
-              <HStack justify="space-between">
+              <HStack color={"white"} justify="space-between">
                 <Box pb={3} border="1px solid grey" ml="128px" mt="10px" w="150px" h="18px" pl="4px" pr="4px" borderRadius="12px" ><Text color="#999999" fontSize="12.4px">Day undefined:Stumps  </Text></Box>
                 <Box mt="-60px"> <Box mt="-46px"><Button color="yellow"><Icon as={ChevronRightIcon} /></Button></Box></Box>
               </HStack>
@@ -311,11 +313,12 @@ const Fantacy = () => {
 
         </HStack>
 
-
+       
       </SimpleGrid>
-
+     
     </Stack>
-
+    <Footer/>
+    </>
   )
 }
 
