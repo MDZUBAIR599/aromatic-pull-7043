@@ -1,20 +1,20 @@
 import React , { useState } from 'react'
 import './MatchTypeNavbar.css'
 import Modal from 'react-modal'
-import "../../../node_modules/flag-icons/css/flag-icons.min.css";
+// import "../../../node_modules/flag-icons/css/flag-icons.min.css";
 import matchData from './match.json'
 
 
-export default function MatchTypeNavbar(){
+export default function MatchTypeNavbar({matchType, setMatchType}){
     const [isOpen, setIsOpen] = useState(false)
-    console.log({matchData});
+    // console.log({matchData});
     return (
         <div className  = "matchType">
         <div className = "match_type_nav">
-            <button className = "match_type_buttons">ALL</button>
-            <button className = "match_type_buttons">INTERNATIONAL</button>
-            <button className = "match_type_buttons">DOMESTIC</button>
-            <button className = "match_type_buttons">WOMEN'S</button>
+            <button onClick = {() => setMatchType('all')} className = "match_type_buttons">ALL</button>
+            <button onClick = {() => setMatchType('international')} className = "match_type_buttons">INTERNATIONAL</button>
+            <button onClick = {() => setMatchType('domestic')} className = "match_type_buttons">DOMESTIC</button>
+            <button onClick = {() => setMatchType('women')} className = "match_type_buttons">WOMEN'S</button>
         </div>
         <div>
             <div className = "filter_btn" onClick = {() => setIsOpen(true)}>

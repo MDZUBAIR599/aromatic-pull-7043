@@ -7,8 +7,8 @@ export default function SeriesPage() {
     return (
         <div style = {{backgroundColor : "#E8E9EE"}}>
             <HeaderNavbar/>
-            <MatchTypeNavbar/>
-            <MatchList/>
+            {/* <MatchTypeNavbar/> */}
+            {/* <MatchList/> */}
         </div>
     )
 }

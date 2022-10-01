@@ -4,13 +4,18 @@
     box-sizing: border-box;
     font-family: 'Lato', sans-serif;
 }
-
+.series_title{
+    width: 70%;
+    text-align: left;
+    margin: 100px auto 0 auto;
+}
 .headerNavbar{
     display: flex;
     /* position: fixed; */
     width: 70%;
-    border-bottom: 1px solid #999999;
-    margin: 0 auto;
+    /* border-bottom: 1px solid #999999; */
+    margin: 100px auto 0 auto;
+    
 }
 
 .headerNavbar > button {
