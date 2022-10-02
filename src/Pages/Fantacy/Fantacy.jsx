@@ -10,7 +10,7 @@ import Footer from '../../Components/Fotter/Footer';
 //bgColor="#777777"
 const Fantacy = () => {
   return (
-    <>
+    
     <Stack m="auto" w="970px" h="1100px" bgColor="black" mt="100px" >
 
       <FantacyHeader />
@@ -166,7 +166,7 @@ const Fantacy = () => {
 
             <Box border="1px solid #FFB600" w="100%" h="150px" borderRadius="8px" pt={2} bgColor="#FFFFFF33">
 
-              <Text fontSize={["8px", "10px", "12px"]} isTruncated>5st T20, England Tour of Pakistan, 2022</Text>
+              <Text color={"white"} fontSize={["8px", "10px", "12px"]} isTruncated>5st T20, England Tour of Pakistan, 2022</Text>
 
               <HStack justify="center" p={2}>
                 <Box w="30px" h="30px"><Image w="35px" h="30px" borderRadius="50%" src="https://images.cricket.com/teams/6_flag_safari.png" alt="pic" /></Box>
@@ -248,7 +248,7 @@ const Fantacy = () => {
 
               <Text fontSize={["8px", "10px", "14px"]} ml="-30px" isTruncated>Match 19, Road Safety T20 Series, 2022</Text>
 
-              <HStack justify="center" p={3} ml="-45px">
+              <HStack color="white"  justify="center" p={3} ml="-45px">
                 <Box ml={-40} w="30px" h="30px"><Image w="35px" h="30px" mr="10px" borderRadius="50%" src="https://images.cricket.com/teams/1405_flag_safari.png" alt="pic" /></Box>
                 <Box border="1px solid grey" pl="-30px" borderRadius="6px" w="35px" h="30px" bgColor="grey.400"><Text align="center" mt="3px" fontSize="14px" fontWeight="600">SL-L</Text></Box>
 
@@ -317,8 +317,7 @@ const Fantacy = () => {
       </SimpleGrid>
      
     </Stack>
-    <Footer/>
-    </>
+    
   )
 }
 
