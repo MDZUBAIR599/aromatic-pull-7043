@@ -1,7 +1,5 @@
 import React from 'react'
 import HeaderNavbar from './HeaderNavbar'
-import MatchTypeNavbar from './MatchTypeNavbar'
-import MatchList from './MatchList'
 import Footer from '../../Components/Fotter/Footer'
 
 export default function SeriesPage() {
