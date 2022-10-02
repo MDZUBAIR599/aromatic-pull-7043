@@ -15,7 +15,7 @@ const TwoBox = () => {
   return (
     <Box w="100%" h={"auto"} m="auto">
       {/* 1st Box */}
-      <Box w={"60%"} h="auto" m="auto" boxShadow="2xl" bg="white" mt={"55px"}>
+      <Box w={"90%"} h="auto" m="auto" boxShadow="2xl" bg="white" mt={"55px"}>
         <Box w={"98%"} h="auto" m="10px" boxShadow="md" bg="white">
           <WrapItem p={"10px"} w="98%">
             <Button
@@ -67,7 +67,7 @@ const TwoBox = () => {
                     m="1rem"
                     src="https://images.cricket.com/teams/1135_flag_safari.png"
                   />
-                  <Heading m={"-2.2rem"} mr="-5px" size={"md"}>
+                  <Heading m={"-2.2rem"} mr="-26px" size={"md"}>
                     WI-W
                   </Heading>
                 </Box>
@@ -85,7 +85,7 @@ const TwoBox = () => {
                     m="1rem"
                     src="https://images.cricket.com/teams/1129_flag_safari.png"
                   />
-                  <Heading m={"-2.3rem"} mr="-30px" size={"md"}>
+                  <Heading m={"-2.3rem"} mr="-42px" size={"md"}>
                     NZ-W
                   </Heading>
                 </Box>
@@ -150,7 +150,7 @@ const TwoBox = () => {
                     m="1rem"
                     src="https://images.cricket.com/teams/1135_flag_safari.png"
                   />
-                  <Heading m={"-2.2rem"} mr="-5px" size={"md"}>
+                  <Heading m={"-2.2rem"} mr="-26px" size={"md"}>
                     WI-W
                   </Heading>
                 </Box>
@@ -168,7 +168,7 @@ const TwoBox = () => {
                     m="1rem"
                     src="https://images.cricket.com/teams/1129_flag_safari.png"
                   />
-                  <Heading m={"-2.3rem"} mr="-10px" size={"md"}>
+                  <Heading m={"-2.3rem"} mr="-26px" size={"md"}>
                     NZ-W
                   </Heading>
                 </Box>
@@ -218,7 +218,7 @@ const TwoBox = () => {
                     m="1rem"
                     src="https://images.cricket.com/teams/1135_flag_safari.png"
                   />
-                  <Heading m={"-2.2rem"} mr="-5px" size={"md"}>
+                  <Heading m={"-2.2rem"} mr="-26px" size={"md"}>
                     WI-W
                   </Heading>
                 </Box>
@@ -236,7 +236,7 @@ const TwoBox = () => {
                     m="1rem"
                     src="https://images.cricket.com/teams/1129_flag_safari.png"
                   />
-                  <Heading m={"-2.3rem"} mr="-39px" size={"md"}>
+                  <Heading m={"-2.3rem"} mr="-55px" size={"md"}>
                     NZ-W
                   </Heading>
                 </Box>

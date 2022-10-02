@@ -4,11 +4,11 @@
     box-sizing: border-box;
     font-family: 'Lato', sans-serif;
 }
-.series_title{
+/* .series_title{
     width: 70%;
     text-align: left;
     margin: 100px auto 0 auto;
-}
+} */
 .headerNavbar{
     display: flex;
     /* position: fixed; */

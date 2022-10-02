@@ -13,6 +13,7 @@ export default function HeaderNavbar() {
     const [labelList, setLabelList] = useState([])
     const [matchType, setMatchType] = useState('')
     const [activeCountry, setActiveCountry] = useState("")
+    const [isOpen, setIsOpen] = useState(false)
 
     const activeStyle = {
         borderBottom : "2px solid #D54130"
@@ -52,7 +53,7 @@ export default function HeaderNavbar() {
 
 
     const handleAllMatches = () => {
-        console.log("len",filteredList.length)
+        // console.log("len",filteredList.length)
         setLabelList(filteredList)
     }
 
@@ -81,12 +82,17 @@ export default function HeaderNavbar() {
 
     const filterByCountry = () => {
         setMatchType("all")
-        const country = filteredList.filter(el => (el?.country || []).includes(activeCountry))
+        
+        const country = filteredList.filter(el => {
+            // console.log({c : el.country, a : activeCountry}) 
+            return (el?.country || []).includes(activeCountry)
+        })
         setLabelList(country)
     }
 
 
     useEffect(() => {
+        // console.log("line 94")
         let matches = matchData
         if(active === "upcoming"){
             matches = filterUpcomingMatchData()
@@ -100,6 +106,7 @@ export default function HeaderNavbar() {
     }, [active])
     
     useEffect(() => {
+        // console.log("line 108")
         if(matchType === 'all'){
             handleAllMatches()
         }else if(matchType === 'international'){
@@ -113,6 +120,8 @@ export default function HeaderNavbar() {
 
 
     useEffect(() => {
+        // console.log("line 122")
+        console.log({activeCountry})
         filterByCountry()
     }, [activeCountry])
 
@@ -130,6 +139,7 @@ export default function HeaderNavbar() {
         </div>
         <MatchTypeNavbar matchType = {matchType} setMatchType = {setMatchType}
            activeCountry =  {activeCountry} setActiveCountry = {setActiveCountry}
+           isOpen = {isOpen} setIsOpen = {setIsOpen}
         />
         <MatchList filteredList = {labelList} matchType = {matchType}/>
         </>

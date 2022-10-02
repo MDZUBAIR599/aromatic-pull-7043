@@ -54,7 +54,7 @@ const Head = () => {
       {/* Heading */}
 
       <Stack
-        w={"60%"}
+        w={"80%"}
         height={"100px"}
         // border="1px solid black"
         m={"auto"}

@@ -15,6 +15,46 @@
             "country" : ["ind", "sa"]
           },
           {
+            "tourName": "ICC World Cup T20, 2022",
+            "seriesSearchNameForES": "South Africa tour of India, 2022, September, Sep",
+            "tourID": "26212",
+            "league": "ICC",
+            "seriesStartDate": 1665883818000,
+            "seriesEndDate": 1668303018000,
+            "T20count": 45,
+            "matchLevel": "international",
+            "Odicount": 3,
+            "Testcount": null,
+            "country" : ["ind", "sa"]
+          },
+
+          {
+            "tourName": "India Tour of New Zealand, 2022",
+            "seriesSearchNameForES": "South Africa tour of India, 2022, September, Sep",
+            "tourID": "26212",
+            "league": "ICC",
+            "seriesStartDate": 1669873408000,
+            "seriesEndDate": 1670823808000,
+            "T20count": 5,
+            "matchLevel": "international",
+            "Odicount": 3,
+            "Testcount": null,
+            "country" : ["ind", "sa"]
+          },
+          {
+            "tourName": "Sri Lanka Tour of India, 2023",
+            "seriesSearchNameForES": "South Africa tour of India, 2022, September, Sep",
+            "tourID": "26212",
+            "league": "ICC",
+            "seriesStartDate": 1673329408000,
+            "seriesEndDate": 1674279808000,
+            "T20count": 5,
+            "matchLevel": "international",
+            "Odicount": 3,
+            "Testcount": null,
+            "country" : ["sa"]
+          },
+          {
             "tourName": "Australia Women and Pakistan Women tour of Ireland, 2022",
             "seriesSearchNameForES": "Australia Women and Pakistan Women tour of Ireland, 2022, July, Jul",
             "tourID": "2335",
@@ -487,7 +527,8 @@
             "T20count": 7,
             "matchLevel": "international-womens",
             "Odicount": null,
-            "Testcount": null
+            "Testcount": null,
+            "country" : ["ind", "sa"]
         },
         {
             "tourName": "Women's T20 Challenge, 2022",

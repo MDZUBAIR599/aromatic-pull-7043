@@ -17,9 +17,9 @@ import FourthBox from "./FourthBox";
 
 const Details = () => {
   return (
-    <Box w="100%" h={"auto"} m="auto">
+    <Box w="=90%" h={"auto"} m="auto">
       {/* 1st Box */}
-      <Box w={"60%"} h="auto" m="auto" boxShadow="2xl" bg="white" mt={"55px"}>
+      <Box w={"90%"} h="auto" m="auto" boxShadow="2xl" bg="white" mt={"55px"}>
         <Box w={"98%"} h="auto" m="10px" boxShadow="md" bg="white">
           <WrapItem p={"10px"}>
             <Button

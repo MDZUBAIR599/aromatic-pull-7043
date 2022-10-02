@@ -13,7 +13,7 @@ export default function NewsCardThree() {
       minH={"25vh"}
       direction={{ base: "column", md: "row" }}
       boxShadow='md'
-      w={"60%"}
+      w={"80%"}
       m="auto"
       mt={"1rem"}
     >

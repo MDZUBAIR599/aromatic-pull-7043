@@ -15,7 +15,7 @@ const FourthBox = () => {
   return (
     <Box w="100%" h={"auto"} m="auto">
       {/* 1st Box */}
-      <Box w={"60%"} h="400px" m="auto" boxShadow="2xl" bg="white" mt={"55px"}>
+      <Box w={"90%"} h="400px" m="auto" boxShadow="2xl" bg="white" mt={"55px"}>
         <Box w={"98%"} h="70px" m="10px" boxShadow="md" bg="white">
           <WrapItem p={"10px"} w="98%">
             <Button
@@ -111,7 +111,7 @@ const FourthBox = () => {
 
           {/* 2nd box  */}
 
-          <Box w={"98%"} h={"auto"} ml="10px" boxShadow="dark-lg">
+          <Box w={"100%"} h={"auto"} ml="10px" boxShadow="dark-lg">
             <Button bg={"#999999"} color="white" size="xs" ml={"-17rem"}>
               T20
             </Button>

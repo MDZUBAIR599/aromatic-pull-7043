@@ -12,12 +12,13 @@ import { ChevronRightIcon } from "@chakra-ui/icons";
 import { ImLocation } from "react-icons/im";
 import LiveOne from "./LiveOne";
 import LiveTwo from "./LiveTwo";
+import Footer from "../Fotter/Footer";
 
 const Live = () => {
   return (
     <Box w="100%" h={"auto"} m="auto">
       {/* 1st Box */}
-      <Box w={"60%"} h="400px" m="auto" boxShadow="2xl" bg="white">
+      <Box w={"80%"} h="450px" m="auto" boxShadow="2xl" bg="white">
         <Box w={"98%"} h="70px" m="10px" boxShadow="md" bg="white">
           <WrapItem p={"10px"}>
             <Button
@@ -135,6 +136,7 @@ const Live = () => {
       </Box>
       <LiveOne />
       <LiveTwo />
+      <Footer/>
     </Box>
   );
 };

@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./NewsCard.module.css";
 
-const NewsCard = ({ data }) => {
+const Newscard = ({ data }) => {
 	//console.log(data)
 	return (
 		<div className="bcontainer">
@@ -13,7 +13,7 @@ const NewsCard = ({ data }) => {
 				<h3>{data.heading}</h3>
 				<p>{data.description}</p>
 			 <div className={styles.third}>
-					<p>   {data.type}</p>
+					<p> {data.type}</p>
 				   <p >{data.date}</p></div>
 			</div>
 		</div>
@@ -21,4 +21,4 @@ const NewsCard = ({ data }) => {
 	);
 };
 
-export default NewsCard;
+export default Newscard;

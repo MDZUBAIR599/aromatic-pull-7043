@@ -12,6 +12,7 @@
     "@testing-library/user-event": "^13.5.0",
     "axios": "^0.27.2",
     "chakra-icons": "0.0.0",
+    "country-flags-svg": "^1.1.6",
     "flag-icon-css": "^4.1.7",
     "flag-icons": "^6.6.6",
     "framer-motion": "^7.5.0",

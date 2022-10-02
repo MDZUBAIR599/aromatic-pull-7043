@@ -1,6 +1,7 @@
 import React from "react";
 import hnews from "../data/HomeNewsData";
-import NewsCard from '../Components/newscard/NewsCard'
+// import Newscard from '../Components/newscard/Newscard';
+import NewsCard from '../Components/News/NewsCard'
 import { useState } from "react";
 import v from "../Assets/slider/v.svg";
 
@@ -13,19 +14,13 @@ const HomeNews = () => {
   return (
    <div style={{margin:"auto"}}>
      <div style={{ 
-      width: "80%",
-      marginLeft:"10%",
-     
-    
+      width: "100%",
+      // marginLeft:"10%",
+
     }} className="App">
       <div
         style={{
           display: "flex",
-        
-          paddingTop: "0.5rem",
-          paddingBottom: "0.5rem",
-          paddingLeft: "1rem",
-          paddingRight: "1rem",
           justifyContent: "space-between",
         }}
       >
@@ -34,6 +29,7 @@ const HomeNews = () => {
             fontFamily: "Montserrat",
             fontSize: "0.75 rem",
             fontWeight: 600,
+            marginLeft:"11%"
           }}
         >
           NEWS AND ARTICLES
@@ -41,14 +37,15 @@ const HomeNews = () => {
       <Link to={`/news`}><img alt="text" src={v} /></Link>
       </div>
       <hr />
-      {newsList.map((item) => (       
+      {/* {newsList.map((item) => (       
           <div  key={item.id}>
             <Link style={{ textDecoration: "none", color: "#141b2f" }} to={`/news`}>
-            <NewsCard   data={item} />
+            <Newscard   data={item} />
             </Link>
           </div>
         
-      ))}
+      ))} */}
+       <NewsCard />
     </div>
    </div>
   );
