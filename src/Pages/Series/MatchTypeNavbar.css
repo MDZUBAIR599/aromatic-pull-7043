@@ -15,9 +15,7 @@
     background-color: #FFFFFF;
     justify-content: space-between;
     border-bottom: 1px solid #999999;
-
 }
-
 
 .match_type_nav{
     display: flex;
@@ -73,7 +71,7 @@
 .modal{
     height: 400px;
     padding: 10px;
-    width: 500px;
+    width: 650px;
     margin: 10% auto;
     background-color: #FFFFFF;
     
@@ -99,14 +97,27 @@
 }
 
 .country_versus > button{
-    display: inline-block;
-    padding: 6px 50px;
+    display: flex;
+    padding: 2px 60px;
+    /* width: 120px; */
     border: none;
     margin : 5px auto;
     font-size: 12px;
     border-radius: 20px;
     background-color: #EEEEEE;
     text-align: center;
+}
+
+.country_versus > button > img{
+    /* padding : 0 5px 0 0; */
+    margin: 0px 5px 0 0 ;
+    height: 30px;
+    width: 30px;
+}
+
+.country_versus > button > span{
+    padding : 5px 0 0 0;
+    
 }
 .active_red{
     background-color: #A70E13;
