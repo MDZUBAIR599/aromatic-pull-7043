@@ -13,8 +13,8 @@ const HomeNews = () => {
   return (
    <div style={{margin:"auto"}}>
      <div style={{ 
-      width: "73%",
-      marginLeft:"10%"
+      width: "80%",
+      marginLeft:"10%",
      
     
     }} className="App">
@@ -38,12 +38,10 @@ const HomeNews = () => {
         >
           NEWS AND ARTICLES
         </h2>
-<Link to={`/news`}><img alt="text" src={v} /></Link>
+      <Link to={`/news`}><img alt="text" src={v} /></Link>
       </div>
       <hr />
-
-      {newsList.map((item) => (
-        
+      {newsList.map((item) => (       
           <div  key={item.id}>
             <Link style={{ textDecoration: "none", color: "#141b2f" }} to={`/news`}>
             <NewsCard   data={item} />
