@@ -19,8 +19,8 @@ const Details = () => {
   return (
     <Box w="100%" h={"auto"} m="auto">
       {/* 1st Box */}
-      <Box w={"60%"} h="400px" m="auto" boxShadow="2xl" bg="white" mt={'55px'}>
-        <Box w={"98%"} h="70px" m="10px" boxShadow="md" bg="white">
+      <Box w={"60%"} h="auto" m="auto" boxShadow="2xl" bg="white" mt={"55px"}>
+        <Box w={"98%"} h="auto" m="10px" boxShadow="md" bg="white">
           <WrapItem p={"10px"}>
             <Button
               w="8%"
@@ -31,24 +31,26 @@ const Details = () => {
             >
               INT
             </Button>
-            <Heading as={"b"} p="10px" fontSize="l" ml={"2rem"}>
+            <Heading
+              as={"b"}
+              p="10px"
+              fontSize={{ base: "xs", sm: "xs", md: "lg" }}
+              ml={"2rem"}
+              w="50%"
+            >
               South Africa tour of India, 2022
             </Heading>
-            <ChevronRightIcon fontSize={"4xl"} ml="59%" mt={"1%"} />
           </WrapItem>
+          <ChevronRightIcon fontSize={"4xl"} ml="79%" mt={"-6rem"} />
         </Box>
 
         {/* 3 Div */}
+        {/* columns={{ base: 1, md: 3 }} spacing={{ base: 5, lg: 8 }} */}
 
         <SimpleGrid columns={{ base: 1, md: 3 }} spacing={{ base: 5, lg: 8 }}>
           {/* 1st Box */}
           <Box w={"98%"} h={"auto"} ml="10px" boxShadow="dark-lg">
-          <Button
-              bg={"#999999"}
-              color="white"
-              size="xs"
-              ml={"-17rem"}
-            >
+            <Button bg={"#999999"} color="white" size="xs" ml={"-17rem"} >
               T20
             </Button>
             <Text ml={"-10rem"} mt="-6%" color="#000" fontSize="m">
@@ -266,6 +268,7 @@ const Details = () => {
       </Box>
 
       <OneBox />
+
       <TwoBox />
       <ThirdBox />
       <FourthBox />
