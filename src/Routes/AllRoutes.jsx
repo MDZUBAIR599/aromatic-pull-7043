@@ -13,6 +13,7 @@ import Singleplayer from '../Pages/playerPage/singleplayer/Singleplayer'
 import SeriesPage from '../Pages/Series/SeriesPage'
 import TeamPage from '../Pages/TeamPage'
 import Videos from '../Pages/videos-page/Videos'
+import Series from '../Pages/Series/SeriesPage'
 
 
 function AllRoutes() {
@@ -28,13 +29,10 @@ function AllRoutes() {
           <Route path="/players/:id" element={  <Singleplayer/>} /> 
           <Route path="/videos" element={  <Videos/>} /> 
           <Route path='/login' element={<LoginPage/>}></Route>
-
-          
-
           <Route path='/series' element={<SeriesPage/>}></Route>
           <Route path='/schedule' element={<Details/>}></Route>
           <Route path='/news' element={<News/>}></Route>
-       
+           <Route path="/series" element={  <Series/>} /> 
 
         </Routes>
 

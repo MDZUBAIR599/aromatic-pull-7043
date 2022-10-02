@@ -1,7 +1,7 @@
-import React from 'react'
+import React , { useState, useEffect }from 'react'
 import MatchCard from './MatchCard'
 
-export default function MatchList() {
+export default function MatchList({filteredList, matchType}) {
     const MatchListStyle = {
         display : "flex",
         backgroundColor : "#FFFFFF",
@@ -12,15 +12,13 @@ export default function MatchList() {
         justifyContent : "space-between"
 
     }
+
     return (
         <div style = {MatchListStyle}>
-           <MatchCard/>
-           <MatchCard/> 
-           <MatchCard/> 
-           <MatchCard/> 
-           <MatchCard/> 
-           <MatchCard/> 
-           <MatchCard/>  
+        {filteredList?.map(el => (
+            <MatchCard match = {el} matchType = {matchType}/>
+        ))}
+           
         </div>
     )
 }
