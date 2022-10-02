@@ -1,13 +1,13 @@
-*{
+/* *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
+} */
 
 .matchCard{
     display: flex;
     width: 100%;
-    border : 1px solid #FF8573;
+    /* border : 1px solid #FF8573; */
     margin: 10px auto;
     /* text-align: center; */
     background-color: #FFFFFF;
@@ -47,11 +47,44 @@
   }
 
   .matchCard > div:nth-child(2){
-    padding: 25px 30px;
+    width: 200px;
+    padding: 25px 10px;
+    /* min-width: 150px; */
     /* flex: 1; */
     text-align: center;
     /* border: 1px solid red; */
-    background-color: #FF8573;
+    /* background-color: #FF8573; */
     font-weight: bold;
     color: #FFFFFF;
   }
+
+
+  .active_red{
+    background-color: #A70E13;
+    }
+.active_green{
+    background-color: #42B98E;
+  }
+
+.active_grey{
+    background-color: #A4C0C6;
+}
+.active_orange{
+    background-color: #FF8573;
+}
+
+.active_border_red{
+  border: 1px solid #A70E13;
+}
+
+.active_border_green{
+  border: 1px solid #42B98E;
+}
+
+.active_border_grey{
+  border: 1px solid #A4C0C6;
+}
+
+.active_border_orange{
+  border: 1px solid #FF8573;
+}
