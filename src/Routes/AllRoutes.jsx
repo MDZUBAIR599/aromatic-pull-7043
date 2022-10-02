@@ -26,6 +26,9 @@ function AllRoutes() {
           <Route path="/" element={<HomePage/>} />
           <Route path="/FantasyResearch" element={<Fantacy />} />
           <Route path="/Criclytics" element={<Criclytics />} /> 
+
+          <Route path="/secondpage" element={<SecondPage />} />
+
           <Route path="/players" element={  <PlayerPage/>} /> 
           <Route path="/teams" element={  <TeamPage/>} /> 
           <Route path="/players/:id" element={  <Singleplayer/>} /> 

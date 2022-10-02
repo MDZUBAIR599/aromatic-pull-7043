@@ -10,7 +10,7 @@ import Footer from '../../Components/Fotter/Footer';
 //bgColor="#777777"
 const Fantacy = () => {
   return (
-    
+
     <Stack m="auto" w="970px" h="1100px" bgColor="black" mt="100px" >
 
       <FantacyHeader />
@@ -317,7 +317,7 @@ const Fantacy = () => {
       </SimpleGrid>
      
     </Stack>
-    
+
   )
 }
 

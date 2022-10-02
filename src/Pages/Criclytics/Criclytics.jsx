@@ -1,14 +1,15 @@
 import { Stack, SimpleGrid, Box, Text, VStack, Image, HStack, Button } from "@chakra-ui/react"
 import React from 'react'
+import Footer from "../../Components/Fotter/Footer"
 import task from "./Cric.module.css"
 import { data } from "./criclyticsApi"
 import {dataCompleted} from "./CriclyticsCom"
 
 
-console.log(dataCompleted)
+// console.log(dataCompleted)
 const Criclytics = () => {
   return (
-
+<>
     <Stack border="1px solid grey" m="auto" w="970px" h="800px" bgColor="white" mt="100px">
 
       <SimpleGrid columns={[1, 1, 1, 1]} spacing={3} justify="center">
@@ -136,6 +137,8 @@ const Criclytics = () => {
 
 
     </Stack>
+    <Footer />
+        </>
   )
 }
 
