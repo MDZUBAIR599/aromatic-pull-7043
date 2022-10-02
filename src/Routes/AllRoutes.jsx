@@ -21,6 +21,7 @@ function AllRoutes() {
           <Route path="/" element={<HomePage/>} />
           <Route path="/FantasyResearch" element={<Fantacy />} />
           <Route path="/Criclytics" element={<Criclytics />} /> 
+          <Route path="/secondpage" element={<SecondPage />} />
 
         </Routes>
     </div>

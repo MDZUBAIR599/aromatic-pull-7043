@@ -5,10 +5,12 @@ import { Icon } from '@chakra-ui/react'
 import { SiGooglemaps } from "react-icons/si";
 import FantacyHeader from './FantacyHeader';
 import { Link } from 'react-router-dom';
+import Footer from '../../Components/Fotter/Footer';
 //w="970px" h="980px"
 //bgColor="#777777"
 const Fantacy = () => {
   return (
+    <>
     <Stack m="auto" w="970px" h="1100px" bgColor="black" mt="100px" >
 
       <FantacyHeader />
@@ -315,7 +317,8 @@ const Fantacy = () => {
       </SimpleGrid>
 
     </Stack>
-
+     <Footer />
+     </>
   )
 }
 
