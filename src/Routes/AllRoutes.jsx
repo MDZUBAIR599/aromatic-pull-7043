@@ -2,20 +2,21 @@
 import React from 'react'
 import { Route, Routes } from 'react-router-dom'
 import Navbar from '../Components/Navbar/Navbar'
-import PlayerOne from '../Components/PlayerInfo/PlayerOne'
+
 import Criclytics from '../Pages/Criclytics/Criclytics'
 import Fantacy from '../Pages/Fantacy/Fantacy'
 import HomePage from '../Pages/HomePage'
 import LoginPage from '../Pages/LoginPage'
 import PlayerPage from '../Pages/PlayerPage'
 import Singleplayer from '../Pages/playerPage/singleplayer/Singleplayer'
+import SeriesPage from '../Pages/Series/SeriesPage'
 import TeamPage from '../Pages/TeamPage'
 import Videos from '../Pages/videos-page/Videos'
-import Player from "../Components/PlayerInfo/Player"
-import PlayerTwo from '../Components/PlayerInfo/PlayerTwo'
-import PlayerThree from "../Components/PlayerInfo/PlayerThree"
 import Schedule from '../Components/Schedule/Schedule'
 import News from '../Components/News/News'
+
+
+
 
 function AllRoutes() {
   return (
@@ -32,10 +33,13 @@ function AllRoutes() {
            <Route path='/schedule' element={<Schedule />}  />
            <Route path='/news' element={<News />}  />
           <Route path='/login' element={<LoginPage/>}></Route>
-          <Route path='/player' element={<Player />}  />
-          <Route path='/harmanpreet'  element={<PlayerOne />} />
-          <Route path='/rickypointing' element={<PlayerTwo />} />
-          <Route path='/sachin' element={<PlayerThree />} />
+
+          <Route path='/series' element={<SeriesPage/>}></Route>
+          <Route path='/schedule' element={<Details/>}></Route>
+          <Route path='/news' element={<News/>}></Route>
+           <Route path="/series" element={  <Series/>} /> 
+
+
         </Routes>
 
     </>
