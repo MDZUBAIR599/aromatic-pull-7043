@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+ 
 }
 
 .footer {
@@ -9,6 +10,7 @@
   align-items: center;
   background-color: rgba(23, 33, 50, 255);
   height: 130px;
+  
 }
 
 .div_1 {

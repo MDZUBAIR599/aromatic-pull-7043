@@ -10,6 +10,10 @@ import { useRef } from 'react'
 import { useEffect } from 'react'
 import Footer from '../../Components/Fotter/Footer'
 console.log(images)
+
+
+
+
 function SecondPage() {
   
 
@@ -132,6 +136,7 @@ function SecondPage() {
                                                     </motion.div>
 
 
+
                                                 ))
                                             }
 
@@ -198,6 +203,11 @@ function SecondPage() {
             <Footer />
         </>
     )
+
+</SimpleGrid>
+    </Stack>
+  )
+
 }
 
 export default SecondPage

@@ -15,7 +15,7 @@ const FourthBox = () => {
   return (
     <Box w="100%" h={"auto"} m="auto">
       {/* 1st Box */}
-      <Box w={"60%"} h="400px" m="auto" boxShadow="2xl" bg="white">
+      <Box w={"60%"} h="400px" m="auto" boxShadow="2xl" bg="white" mt={"55px"}>
         <Box w={"98%"} h="70px" m="10px" boxShadow="md" bg="white">
           <WrapItem p={"10px"} w="98%">
             <Button
@@ -27,11 +27,17 @@ const FourthBox = () => {
             >
               DOM
             </Button>
-            <Heading as={"b"} p="10px" fontSize="sm" ml={"1rem"}>
+            <Heading
+              as={"b"}
+              p="10px"
+              fontSize={{ base: "xs", sm: "xs", md: "lg" }}
+              ml={"2rem"}
+              w="50%"
+            >
               Road Safety T20 World Series, 2022
             </Heading>
-            <ChevronRightIcon fontSize={"4xl"} ml="65%" mt={"1%"} />
           </WrapItem>
+          <ChevronRightIcon fontSize={"4xl"} ml="79%" mt={"-6rem"} />
         </Box>
 
         {/* 3 Div */}
@@ -48,8 +54,7 @@ const FourthBox = () => {
             <Box ml={"2rem"} mt="0.8rem" color={"#999999"}>
               <ImLocation />
               <Text mt={"-1.35rem"} ml="-12rem">
-              Raipur
-
+                Raipur
               </Text>
             </Box>
 
@@ -76,11 +81,11 @@ const FourthBox = () => {
               <Box display={"flex"} h="50px">
                 <Box>
                   <Image
-                    w={"12%"}
+                    w={"45%"}
                     m="1rem"
                     src="https://www.cricket.com/svgs/images/flag_empty.svg"
                   />
-                  <Heading m={"-2.3rem"} mr="-35px" size={"md"}>
+                  <Heading m={"-2.5rem"} mr="-9rem" size={"md"}>
                     TL-W
                   </Heading>
                 </Box>

@@ -52,7 +52,7 @@ const Navbar = () => {
           </Box>
 
           <Box className="link">
-            <Box 
+          <Link to={`/criclytics`}><Box 
             
             className="navBox">
               
@@ -61,10 +61,10 @@ const Navbar = () => {
                 alt="criclytics"
                 src="https://www.cricket.com/static/svgs/icons/criclytics-icon.svg"
               />
-              <Link to={`/criclytics`}>
+            
                 <p  color="red">Criclytics</p>
-              </Link>
-            </Box>
+              
+            </Box></Link>
           </Box>
 
           <Box className="link">

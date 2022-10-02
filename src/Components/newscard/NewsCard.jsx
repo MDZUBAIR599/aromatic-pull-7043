@@ -4,7 +4,8 @@ import styles from "./NewsCard.module.css";
 const NewsCard = ({ data }) => {
 	//console.log(data)
 	return (
-		<div className={styles.container} key={data.id}>
+		<div className="bcontainer">
+			<div className={styles.container} >
 			<div className={styles.firstChild}>
 				<img src={data.img} alt="" width="100%" height="100%" />
 			</div>
@@ -15,6 +16,7 @@ const NewsCard = ({ data }) => {
 					<p>   {data.type}</p>
 				   <p >{data.date}</p></div>
 			</div>
+		</div>
 		</div>
 	);
 };
