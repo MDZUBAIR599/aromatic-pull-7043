@@ -15,8 +15,8 @@ const ThirdBox = () => {
   return (
     <Box w="100%" h={"auto"} m="auto">
       {/* 1st Box */}
-      <Box w={"60%"} h="400px" m="auto" boxShadow="2xl" bg="white">
-        <Box w={"98%"} h="70px" m="10px" boxShadow="md" bg="white">
+      <Box w={"60%"} h="auto" m="auto" boxShadow="2xl" bg="white" mt={"55px"}>
+        <Box w={"98%"} h="auto" m="10px" boxShadow="md" bg="white">
           <WrapItem p={"10px"} w="98%">
             <Button
               w="8%"
@@ -27,11 +27,17 @@ const ThirdBox = () => {
             >
               INT
             </Button>
-            <Heading as={"b"} p="10px" fontSize="sm" ml={"1rem"}>
+            <Heading
+              as={"b"}
+              p="10px"
+              fontSize={{ base: "xs", sm: "xs", md: "lg" }}
+              ml={"2rem"}
+              w="50%"
+            >
               Women's Twenty20 Asia Cup, 2022
             </Heading>
-            <ChevronRightIcon fontSize={"4xl"} ml="65%" mt={"1%"} />
           </WrapItem>
+          <ChevronRightIcon fontSize={"4xl"} ml="79%" mt={"-6rem"} />
         </Box>
 
         {/* 3 Div */}
@@ -48,7 +54,7 @@ const ThirdBox = () => {
             <Box ml={"2rem"} mt="0.8rem" color={"#999999"}>
               <ImLocation />
               <Text mt={"-1.35rem"} ml="-12rem">
-              Sylhet
+                Sylhet
               </Text>
             </Box>
 
@@ -66,7 +72,7 @@ const ThirdBox = () => {
                   </Heading>
                 </Box>
 
-                <Text  mr={"26px"} w="40%" mt={"12px"}>
+                <Text mr={"26px"} w="40%" mt={"12px"}>
                   1st October
                 </Text>
               </Box>
@@ -116,7 +122,7 @@ const ThirdBox = () => {
             <Box ml={"2rem"} mt="0.8rem" color={"#999999"}>
               <ImLocation />
               <Text mt={"-1.35rem"} ml="-12rem">
-              Sylhet
+                Sylhet
               </Text>
             </Box>
 
@@ -184,7 +190,7 @@ const ThirdBox = () => {
             <Box ml={"2rem"} mt="0.8rem" color={"#999999"}>
               <ImLocation />
               <Text mt={"-1.35rem"} ml="-12rem">
-              Sylhet
+                Sylhet
               </Text>
             </Box>
 

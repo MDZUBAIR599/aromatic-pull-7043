@@ -33,10 +33,11 @@
     padding: 4px 30px;
     font-size: 10px;
     font-weight: 600;
-    color: #FFFFFF;
+    color: #000000;
     /* border : 1px solid red; */
     border-radius: 20px;
-    background-color: #a70e13;
+    background-color: #ffffff;
+    border: 1px solid red;
 }
 
 .filter_btn
@@ -106,4 +107,42 @@
     border-radius: 20px;
     background-color: #EEEEEE;
     text-align: center;
+}
+.active_red{
+    background-color: #A70E13;
+    color: #FFFFFF;
+    border: 1px solid red;
+}
+.active_green_not{
+    border: 1px solid #42B98E;
+}
+
+.active_grey_not{
+    border: 1px solid #A4C0C6;
+}
+
+
+.active_orange_not{
+    border: 1px solid #FF8573;
+}
+
+
+.active_red_not{
+    border: 1px solid red;
+}
+.active_green{
+    background-color: #42B98E;
+    color: #FFFFFF;
+    border: 1px solid #42B98E;
+}
+
+.active_grey{
+    background-color: #A4C0C6;
+    color: #FFFFFF;
+    border: 1px solid #A4C0C6;
+}
+.active_orange{
+    background-color: #FF8573;
+    color: #FFFFFF;
+    border: 1px solid #FF8573;
 }

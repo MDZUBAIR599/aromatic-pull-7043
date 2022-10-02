@@ -15,9 +15,9 @@ const TwoBox = () => {
   return (
     <Box w="100%" h={"auto"} m="auto">
       {/* 1st Box */}
-      <Box w={"60%"} h="400px" m="auto" boxShadow="2xl" bg="white">
-        <Box w={"98%"} h="70px" m="10px" boxShadow="md" bg="white">
-          <WrapItem p={"10px"} w='98%'>
+      <Box w={"60%"} h="auto" m="auto" boxShadow="2xl" bg="white" mt={"55px"}>
+        <Box w={"98%"} h="auto" m="10px" boxShadow="md" bg="white">
+          <WrapItem p={"10px"} w="98%">
             <Button
               w="8%"
               h="50px"
@@ -27,11 +27,17 @@ const TwoBox = () => {
             >
               INT
             </Button>
-            <Heading as={"b"} p="10px" fontSize="sm" ml={"1rem"}>
+            <Heading
+              as={"b"}
+              p="10px"
+              fontSize={{ base: "xs", sm: "xs", md: "lg" }}
+              ml={"2rem"}
+              w="50%"
+            >
               New Zealand Women tour of West Indies, 2022
             </Heading>
-            <ChevronRightIcon fontSize={"4xl"} ml="65%"  mt={"1%"} />
           </WrapItem>
+          <ChevronRightIcon fontSize={"4xl"} ml="79%" mt={"-6rem"} />
         </Box>
 
         {/* 3 Div */}
@@ -47,8 +53,8 @@ const TwoBox = () => {
             </Text>
             <Box ml={"2rem"} mt="0.8rem" color={"#999999"}>
               <ImLocation />
-              <Text mt={"-1.35rem"}  ml="-12rem">
-              Antigua
+              <Text mt={"-1.35rem"} ml="-12rem">
+                Antigua
               </Text>
             </Box>
 
@@ -131,7 +137,7 @@ const TwoBox = () => {
             <Box ml={"2rem"} mt="0.8rem" color={"#999999"}>
               <ImLocation />
               <Text mt={"-1.35rem"} ml="-12rem">
-              Antigua
+                Antigua
               </Text>
             </Box>
 
@@ -199,7 +205,7 @@ const TwoBox = () => {
             <Box ml={"2rem"} mt="0.8rem" color={"#999999"}>
               <ImLocation />
               <Text mt={"-1.35rem"} ml="-12rem">
-              Antigua
+                Antigua
               </Text>
             </Box>
 
@@ -213,7 +219,7 @@ const TwoBox = () => {
                     src="https://images.cricket.com/teams/1135_flag_safari.png"
                   />
                   <Heading m={"-2.2rem"} mr="-5px" size={"md"}>
-                   WI-W
+                    WI-W
                   </Heading>
                 </Box>
 

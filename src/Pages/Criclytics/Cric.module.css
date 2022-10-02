@@ -1,0 +1,74 @@
+/* *{
+    background-color: white;
+} */
+.slide {
+    margin: 0px;
+    padding: 0px;
+    height: 200px;
+    width: 100%;
+    background-image: url("https://www.cricket.com/pngs/banner-1.jpg");
+    background-size: 100% 100%;
+    animation: changeImage 15s linear infinite;
+}
+
+@keyframes changeImage {
+    0% {
+        background-image: url("https://www.cricket.com/pngs/Banner2.png");
+    }
+
+    33.33% {
+        background-image: url("https://www.cricket.com/pngs/Banner3.png");
+    }
+
+    66.66% {
+        background-image: url("https://www.cricket.com/pngs/Banner1.png");
+    }
+
+    100% {
+        background-image: url("https://www.cricket.com/pngs/banner-1.jpg");
+    }
+}
+
+
+.item {
+
+    padding: 0px;
+    width: 110px;
+   align-items: center;
+   justify-content: center;
+    border: 1px solid rgb(193, 183, 183);
+    border-radius: 50%;
+    /* background-color: rgb(41, 33, 33); */
+    background-color:#FFFFFF1A;
+}
+
+.item img {
+    min-width: 80px;
+    min-height: 80px;
+    pointer-events: none;
+    border-radius: 40%;
+ /* margin-top: -15px; */
+}
+
+.innerCarousel {
+    display: flex;
+    gap: 5rem;
+    /* background-color: rgb(33, 24, 24); */
+    /* background-color:#FFFFFF1A; */
+    margin-top: 20px;
+    /* overflow: hidden; */
+   
+
+}
+
+.carousel {
+    /* background-color:#FFFFFF1A; */
+    overflow: hidden;
+    color: rgb(33, 24, 24);
+}
+
+.ParentDiv {
+    background-color:#FFFFFF1A;
+    overflow: hidden;
+    /* background-color:white; */
+}
