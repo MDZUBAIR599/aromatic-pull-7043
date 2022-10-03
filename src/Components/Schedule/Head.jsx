@@ -33,7 +33,7 @@ const Head = () => {
       {/* Heading */}
 
       <Box
-        w={"60%"}
+        w={"90%"}
         height={"100px"}
         // border="1px solid black"
         m={"auto"}

@@ -16,6 +16,7 @@ import PlayerThree from "../Components/PlayerInfo/PlayerThree"
 import Schedule from '../Components/Schedule/Schedule'
 import News from '../Components/News/News'
 import SeriesPage from '../Pages/Series/SeriesPage'
+import SecondPage from '../Pages/Fantacy/SecondPage'
 function AllRoutes() {
   return (
     <>
@@ -35,6 +36,7 @@ function AllRoutes() {
           <Route path='/rickypointing' element={<PlayerTwo />} />
           <Route path='/sachin' element={<PlayerThree />} />
           <Route path='/series' element={<SeriesPage />} />
+          <Route path='/secondpage' element={<SecondPage />} />
 
         </Routes>
     </>
