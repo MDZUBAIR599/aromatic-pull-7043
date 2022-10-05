@@ -1,12 +1,12 @@
-Clone of "www.cricket.com".
+### Clone of "www.cricket.com".
 
 This website  is owned and operated by Crictec Media Limited. This is team collaboration project at Masai School.
-Deployment Link:-  https://isnt-mdzubair599-awesome.netlify.app/
+### Deployment Link:-  https://isnt-mdzubair599-awesome.netlify.app/
 
 
 for players Page plese run the command ( npm run server)
 
-Team Members:
+### Team Members:
 Md Zubair
 Rahul Monga
 Robin george
@@ -15,7 +15,7 @@ Ramkrishna Prabhu
 Md Ali Shahanshah
 
 
-Tools & Technology Used:
+### Tools & Technology Used:
 React
 Redux
 HTML
@@ -25,10 +25,10 @@ JSON
 VS Code editor
 
 
-About Our Project :
+### About Our Project :
 Our project is a clone of a Cricket.com, where we can watch live cricket scores, fantasy team approximations. Analytics of cricket, information and past performance of the player as well.
 
-Guide to Project:
+### Guide to Project:
 We made the Full Home Page where Navbar is there for navigating to all the pages in the website.
 We made a full functioning cards which shows the information about Live matches ,previous matches and upcoming matches. Below that we create a news and video section as shown in website, where we can watch cricket related videos and also go through with all the cricket tournament news around the world. We created criclytics page where by single click, user can get all the information about upcoming matches and previous matches. By clicking on the match card user will be redirected to another page where he/she can get all the statics of the match. There is also a Log-in functonality where user can sign up by using 10 digit mobile number,after putting mobile number we have to fill OTP (one time password ) for redirecting upto information page where user can fill his details , that details gonna saved in the local storage. User can go through with numbers of articles and also able to mark as liked if he or she find any particular artical intresting .
 
@@ -38,7 +38,7 @@ So this is basically our project. We were two members in the team and we complet
 All the resources which are used in the project either we fetch those from main website or we take from google. All the resources are belongs to their respective owners. We don't have anykind of ownership over any resources. All images are taken from Cricket.com, google images, unsplash.com or pexels.com are only for educational and learning puropose. All icons and fonts taken from open sources from google search. We have no copyrights over images, icons or fonts.
 
 Some Screenshots from or Project:-
-1.HomePage.
+### HomePage.
 
 
 
@@ -48,7 +48,7 @@ Some Screenshots from or Project:-
 
 ![Screenshot (179)](https://user-images.githubusercontent.com/101566430/193989770-eb0675be-74c5-401b-a6b3-591dc01bed6f.png)
 
-Fantasy Center.
+### Fantasy Center.
 
 
 
@@ -57,7 +57,7 @@ Fantasy Center.
 
 ![Screenshot (182)](https://user-images.githubusercontent.com/101566430/193989839-3194a294-06a2-4740-8ec8-9c47acc821d6.png)
 
-2. Cryclitics Page
+### Cryclitics Page
 
 
 
@@ -66,23 +66,23 @@ Fantasy Center.
 
 ![Screenshot (183)](https://user-images.githubusercontent.com/101566430/193989989-c3ebf6f2-fd5a-4c64-9960-634e20dc8a5e.png)
 
-Series Page
+### Series Page
 
 
 
 
 ![Screenshot (185)](https://user-images.githubusercontent.com/101566430/193990066-2bc551c9-50e4-4ef6-b448-acabe2b50012.png)
 
-3.News Page
+### News Page
 
 
 ![Screenshot (186)](https://user-images.githubusercontent.com/101566430/193990034-acd9240f-caa9-44d0-86f1-ad6ad1515f89.png)
 
-Players Page:- 
+### Players Page:- 
 
 ![Screenshot (190)](https://user-images.githubusercontent.com/101566430/193990535-54067e33-5863-411c-8b92-41cd48c6112b.png)
 
-Teams Page:-
+### Teams Page:-
 
 
 
@@ -92,7 +92,7 @@ Teams Page:-
 
 
 
-5.Videos Page:-
+### Videos Page:-
 
 
 
