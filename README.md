@@ -7,12 +7,12 @@ This website  is owned and operated by Crictec Media Limited. This is team colla
 for players Page plese run the command ( npm run server)
 
 ### Team Members:
-Md Zubair
-Rahul Monga
-Robin george
-Shashank sinha 
-Ramkrishna Prabhu
-Md Ali Shahanshah
+* Md Zubair
+* Rahul Monga
+* Robin george
+* Shashank sinha 
+* Ramkrishna Prabhu
+
 
 
 ### Tools & Technology Used:
