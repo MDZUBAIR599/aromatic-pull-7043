@@ -16,13 +16,13 @@ for players Page plese run the command ( npm run server)
 
 
 ### Tools & Technology Used:
-React
-Redux
-HTML
-CSS
-JavaScript
-JSON
-VS Code editor
+* React
+* Redux
+* HTML
+* CSS
+* JavaScript
+* JSON
+* VS Code editor
 
 
 ### About Our Project :
